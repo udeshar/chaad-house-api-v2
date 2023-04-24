@@ -1,0 +1,33 @@
+{
+  "name": "chaad-house-backend",
+  "version": "0.1.0",
+  "description": "api for chaad house restaurent system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "udesh <udesh.arlekar@gmail.com>",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.16.2",
+    "helmet": "^3.12.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.0.8",
+    "morgan": "^1.9.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "nodemon": "^1.17.1"
+  }
+}
